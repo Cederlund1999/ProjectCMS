@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+
+}
+.card{
+    background-color: lightcoral;
+}
+.btn-primary{
+    background-color: blue;
+}
+
+
+
+.projectPosts{
+    display: flex;
+    margin-top:75px;
+    padding: 10px;
+    justify-content: center;
+
+
+}
+.projectCards{
+    padding: 20px;
+
+
+}
+#navbarSupportedContent{
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
