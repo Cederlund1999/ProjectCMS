@@ -1,12 +1,26 @@
+*{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 body{
+
     margin: 0;
     padding: 0;
     width: 100%;
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/6/c5/dark-waves-4k-black-wallpapers.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
 
 
 }
 .card{
     background-color: lightcoral;
+
 }
 .btn-primary{
     background-color: blue;
@@ -16,20 +30,24 @@ body{
 
 .projectPosts{
     display: flex;
-    margin-top:75px;
+    margin-top:35px;
     padding: 10px;
     justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
 
 
 }
 .projectCards{
-    padding: 20px;
+    padding: 80px;
+    color: black;
 
 
 }
 #navbarSupportedContent{
     padding: 5px;
-    border-bottom: 1px solid;
+
 }
 
 span{
