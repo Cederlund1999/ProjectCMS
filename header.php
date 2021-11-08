@@ -42,4 +42,4 @@
         </div>
     </nav>
 </header>
-<div class="divStyle">
+<div>
