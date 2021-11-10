@@ -6,12 +6,14 @@ $getImage2 = get_field('image2');
 $image1 = $getImage1['sizes']['large'];
 $image2 = $getImage2['sizes']['large'];
 get_header();?>
-
+<div class=title-text>
     <h1><?php echo $title;?></h1>
-    <div><?php echo $text;?></div>
-    <img src ="<?php echo $image1;?>">
-    <img src ="<?php echo $image2;?>">
-
+    <p><?php echo $text;?></p>
+</div>
+<div class="images">
+    <img class="img"src ="<?php echo $image1;?>">
+    <img class="img"src ="<?php echo $image2;?>">
+</div>
 <?php
 get_footer();
 

@@ -6,9 +6,12 @@ $image = $getImage['sizes']['large'];
 $link = get_field('imageLink');
 get_header();
 ?>
+<div class=title-text>
 <h1><?php echo $title;?></h1>
-<div><?php echo $desc;?></div>
-<a href="<?php echo $link;?>"><img src ="<?php echo $image;?>"></a>
-
+<p><?php echo $desc;?></p>
+</div>
+<div class="images">
+<a href="<?php echo $link;?>"><img class="img"src ="<?php echo $image;?>"></a>
+</div>
 <?php
 get_footer();

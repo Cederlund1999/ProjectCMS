@@ -5,7 +5,6 @@
 }
 
 body{
-
     margin: 0;
     padding: 0;
     width: 100%;
@@ -15,18 +14,18 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-
-
 }
 .card{
-    background-color: lightcoral;
-
+    background-color: lightgrey;
 }
+.card-img-top{
+    min-height: 225px;
+    max-height: 225px;
+}
+
 .btn-primary{
     background-color: blue;
 }
-
-
 
 .projectPosts{
     display: flex;
@@ -36,18 +35,16 @@ body{
     flex-wrap: wrap;
     align-content: center;
 
-
-
 }
+
 .projectCards{
     padding: 80px;
     color: black;
 
-
 }
+
 #navbarSupportedContent{
     padding: 5px;
-
 }
 
 span{
@@ -55,9 +52,31 @@ span{
     font-weight: bold;
     font-size: large;
 }
+
 .contactLinks{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    padding: 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.img{
+    padding: 10px;
+    border-radius: 20px;
+}
+.title-text{
+    margin-top: 20px;
 }
