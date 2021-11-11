@@ -5,7 +5,8 @@ $getImage1 = get_field('image');
 $getImage2 = get_field('image2');
 $image1 = $getImage1['sizes']['large'];
 $image2 = $getImage2['sizes']['large'];
-get_header();?>
+get_header();
+?>
 <div class=title-text>
     <h1><?php echo $title;?></h1>
     <p><?php echo $text;?></p>

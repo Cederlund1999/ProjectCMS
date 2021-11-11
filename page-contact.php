@@ -4,12 +4,12 @@ $text = get_field('text');
 $linkedIn = get_field('linkedin');
 $facebook = get_field('facebook');
 $twitter = get_field('twitter');
-get_header();?>
+get_header();
+?>
     <div class=title-text>
     <h1> <?php echo $title; ?></h1>
     <p><?php echo $text; ?> </p>
     </div>
-
     <div class="contactLinks">
     <a href="<?php echo $linkedIn;?>" class="social-icon si-rounded si-small si-linkedin">
         <h1 class="bi bi-linkedin"></h1>

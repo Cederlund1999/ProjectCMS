@@ -13,5 +13,6 @@ get_header();
 <div class="images">
 <a href="<?php echo $link;?>"><img class="img"src ="<?php echo $image;?>"></a>
 </div>
+</div>
 <?php
 get_footer();

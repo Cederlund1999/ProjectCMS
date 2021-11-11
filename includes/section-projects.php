@@ -1,8 +1,8 @@
 <?php
 get_header();
-
 ?>
 <div>
+    <h1>Projects</h1>
     <div class="projectPosts">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <?php $image = get_field('image');

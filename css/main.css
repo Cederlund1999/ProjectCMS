@@ -2,21 +2,25 @@
     max-width: 100%;
     padding: 0;
     margin: 0;
+
 }
 
 body{
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
     background-image: url("https://img4.goodfon.com/wallpaper/nbig/6/c5/dark-waves-4k-black-wallpapers.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
+
 }
 .card{
     background-color: lightgrey;
+    border: 1px solid blue;
 }
 .card-img-top{
     min-height: 225px;
@@ -29,7 +33,7 @@ body{
 
 .projectPosts{
     display: flex;
-    margin-top:35px;
+    margin-top:15px;
     padding: 10px;
     justify-content: center;
     flex-wrap: wrap;
@@ -38,8 +42,9 @@ body{
 }
 
 .projectCards{
-    padding: 80px;
+    padding: 60px;
     color: black;
+
 
 }
 
@@ -72,11 +77,18 @@ p{
     display: flex;
     justify-content: center;
     padding: 50px;
+
 }
 .img{
     padding: 10px;
     border-radius: 20px;
+    max-width: 500px;
+    max-height: 500px;
 }
 .title-text{
     margin-top: 20px;
+}
+.btn-primary
+{
+    background-color: hotpink;
 }
